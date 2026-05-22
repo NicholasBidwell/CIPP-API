@@ -1,0 +1,3 @@
+[submodule "Modules/CustomStandards"]
+	path = Modules/CustomStandards
+	url = https://github.com/NicholasBidwell/cipp-custom-standards.git
