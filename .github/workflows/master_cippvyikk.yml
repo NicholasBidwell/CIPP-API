@@ -19,6 +19,8 @@ jobs:
     steps:
       - name: 'Checkout GitHub Action'
         uses: actions/checkout@v4
+        with:
+          submodules: recursive
       
       - name: 'Run Azure Functions Action'
         uses: Azure/functions-action@v1
